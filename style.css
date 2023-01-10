@@ -1,0 +1,64 @@
+#container {
+  height: 600px;
+  width: 360px;
+  background-image: url("./img/cold-bg.jpg");
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px 0px;
+}
+h2 {
+  color: rgb(110, 141, 245);
+  text-align: center;
+}
+
+.getDate {
+  color: rgb(110, 141, 245);
+  opacity: 0.4;
+  text-align: center;
+}
+
+.tempContainer {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(124, 231, 124);
+  opacity: 0.4;
+  margin-left: 30px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.temp {
+  position: absolute;
+  color: rgb(253, 244, 244);
+  right: 5.5px;
+  bottom: 20px;
+  font-size: 140px;
+}
+
+.weather {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.weatherText {
+  color: white;
+  font-size: 80px;
+}
+
+.resetBtn {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: rgb(63, 63, 212);
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-left: 130px;
+  margin-top: 50px;
+  opacity: 0.7;
+}
+
+.resetBtn:hover {
+  color: blue;
+  background-color: white;
+  opacity: 0.7;
+}
